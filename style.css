@@ -1,0 +1,107 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+body{
+    height: 100vh;
+}
+
+.navbar{
+    background-color: #1C5569;
+}
+
+#introduction{
+    background-color: #3FBEE8;
+    height: 100vh;
+    padding-bottom: 2rem;
+}
+
+#jobs{
+    background-color: #3194B5;
+    padding-bottom: 2rem;
+}
+
+.div-head{
+    margin-top: 1rem;
+    font-size: 1.75rem;
+}
+
+.navbar-brand > img{
+    height: 4rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+#job-classification{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.card-body img{
+    display: flex;
+    height: 8rem;
+    width: 10rem;
+    border-radius: 50%;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category > .card-body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    box-shadow: 0.5rem 0.5rem 0.25rem;
+}
+
+#social{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#footer-page{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#social img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+#footer-page>img{
+    height: 5rem;
+    width: 10rem;
+}
+
+.clicked{
+    box-shadow: 0px 0px 0px;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+}
